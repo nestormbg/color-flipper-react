@@ -21,7 +21,6 @@ export default function getRandomHexColor() {
 
   for (let i = 0; i < 6; i++) {
     const randomNumber = Math.floor(Math.random() * (hexColors.length - 0) + 0);
-    console.log(randomNumber);
     color += hexColors[randomNumber];
   }
 
